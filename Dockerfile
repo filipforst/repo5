@@ -1,3 +1,2 @@
-FROM nginx
+FROM httpd
 RUN apt-get update
-ENV HOST 0.0.0.0
